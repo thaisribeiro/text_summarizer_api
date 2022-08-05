@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-from api.routers import api_router
+from src.api.routers import api_router
 
 app = FastAPI(title='Sumarizador')
 

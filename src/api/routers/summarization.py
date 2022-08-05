@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from api.schemas.summarization_schema import Summarization
-from api.services.summarization_service import get_summarization
+from src.api.schemas.summarization_schema import Summarization
+from src.api.services.summarization_service import get_summarization
 
 router = APIRouter(tags=['Summarizations'], prefix='/summarization')
 
