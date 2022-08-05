@@ -1,0 +1,41 @@
+{
+    "medium":{
+        "title": {
+            "find": "h1",
+            "attrs": {"class": "pw-post-title"}
+        },
+        "find_all": "p",
+        "attrs": {"class": "pw-post-body-paragraph"},
+        "limit": 40
+    },
+    "fastcompany": {
+        "find_all":  "article",
+        "attrs": {"class": "post__article"},
+        "limit": 50,
+        "children": {
+            "find_all": "p",
+            "attrs": {},
+            "limit": 10
+        }
+    },
+    "springwise": {
+        "find_all": "article",
+        "attrs": {"class": "sw-article"},
+        "limit": 50,
+        "children": {
+            "find_all": "p",
+            "attrs": {},
+            "limit": 10
+        }
+    },
+    "wired": {
+        "find_all": "div",
+        "attrs": {"class": "sw-body__inner-container"},
+        "limit": 50,
+        "children": {
+            "find_all": "p",
+            "attrs": {"class": "paywall"},
+            "limit": 10
+        }
+    }
+}

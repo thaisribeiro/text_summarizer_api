@@ -5,3 +5,7 @@ nltk==3.7
 numpy==1.23.1
 networkx==2.8.5
 lxml==4.9.1
+python-decouple==3.6
+pydantic
+langdetect
+deep_translator
